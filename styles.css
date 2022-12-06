@@ -1,5 +1,14 @@
+ul {
+    padding-left: 1em;
+}
+
+a { 
+    text-decoration: none; 
+}
+
 .flex-container-row {
     display: flex;
+    position: absolute;
     flex-direction: row;
     gap: 10px;
     gap: 10px 20px;
@@ -9,6 +18,9 @@
 
 .flex-container-col-meta {
     display: flex;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
     flex-direction: column;
     padding: 47px 100px 47px 32px;
 }
